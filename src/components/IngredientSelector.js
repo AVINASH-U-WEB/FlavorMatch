@@ -41,12 +41,28 @@ export default function IngredientSelector({ ingredients }) {
                 </div>
 
                 {selectedIng1 && selectedIng2 ? (
-                    <Link
-                        href={`/pairing/${selectedIng1.slug}-and-${selectedIng2.slug}`}
-                        className="w-full md:w-auto px-8 py-4 bg-[#C2410C] text-white font-mono font-bold uppercase tracking-widest hover:bg-black transition-colors text-center"
-                    >
-                        Generate Report
-                    </Link>
+                    <div className="flex gap-4">
+                        <Link
+                            href={`/pairing/${selectedIng1.slug}-and-${selectedIng2.slug}`}
+                            className="flex-1 bg-black text-white text-center py-4 rounded-full font-serif text-xl hover:bg-[#C2410C] transition-colors"
+                        >
+                            Generate Report
+                        </Link>
+
+                        <button
+                            onClick={() => {
+                                const random1 = ingredients[Math.floor(Math.random() * ingredients.length)];
+                                let random2 = ingredients[Math.floor(Math.random() * ingredients.length)];
+                                while (random1.id === random2.id) {
+                                    random2 = ingredients[Math.floor(Math.random() * ingredients.length)];
+                                }
+                                window.location.href = `/pairing/${random1.slug}-and-${random2.slug}`;
+                            }}
+                            className="px-6 py-4 border-2 border-black rounded-full font-mono text-sm uppercase tracking-widest hover:bg-black hover:text-white transition-colors"
+                        >
+                            Surprise Me 🎲
+                        </button>
+                    </div>
                 ) : (
                     <div className="w-full md:w-auto flex-1 md:max-w-xs relative">
                         <input
