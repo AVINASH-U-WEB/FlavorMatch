@@ -93,4 +93,4 @@ Each generated page features unique **Titles**, **Meta Descriptions**, and **Ope
 ---
 
 ## 📜 License
-MIT © 2025 Flavor Match
+MIT © 2026 Flavor Match
