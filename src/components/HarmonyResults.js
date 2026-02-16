@@ -22,7 +22,25 @@ export default function HarmonyResults({ harmony, ing1, ing2 }) {
                     <div className="text-right">
                         <span className="block font-mono text-xs uppercase tracking-widest text-gray-500 mb-1">Harmony Index</span>
                         <span className="font-serif text-8xl font-black tracking-tighter">{harmony.score}</span>
-                        <span className="block font-mono text-sm text-gray-400">/100</span>
+                        <span className="block font-mono text-sm text-gray-400 mb-4">/100</span>
+
+                        <button
+                            onClick={() => {
+                                if (navigator.share) {
+                                    navigator.share({
+                                        title: `Flavor Match: ${ing1.name} + ${ing2.name}`,
+                                        text: `Check out this flavor pairing analysis! Score: ${harmony.score}/100`,
+                                        url: window.location.href
+                                    })
+                                } else {
+                                    navigator.clipboard.writeText(window.location.href);
+                                    alert('Link copied to clipboard!');
+                                }
+                            }}
+                            className="inline-block bg-black text-white px-6 py-2 rounded-full font-mono text-xs uppercase tracking-widest hover:bg-[#C2410C] transition-colors"
+                        >
+                            Share Report ↗
+                        </button>
                     </div>
                 </div>
 
