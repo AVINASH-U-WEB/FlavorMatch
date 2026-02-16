@@ -5,7 +5,7 @@
 
 ![Next.js](https://img.shields.io/badge/Next.js-14-black) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-blue) ![Status](https://img.shields.io/badge/Status-Production_Ready-green)
 
-**[View Live Demo](https://culinary-alchemist-gneffvloz-avinash-us-projects.vercel.app)**
+**[View Live Demo](https://culinary-alchemist-two.vercel.app/)**
 
 ---
 
@@ -93,4 +93,4 @@ Each generated page features unique **Titles**, **Meta Descriptions**, and **Ope
 ---
 
 ## 📜 License
-MIT © 2024 Flavor Match
+MIT © 2025 Flavor Match
