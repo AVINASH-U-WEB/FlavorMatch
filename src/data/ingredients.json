@@ -1,0 +1,347 @@
+[
+  {
+    "id": "tamarind",
+    "name": "Tamarind (Puli)",
+    "slug": "tamarind",
+    "profile": {
+      "sweet": 2,
+      "sour": 10,
+      "salty": 0,
+      "bitter": 1,
+      "umami": 4,
+      "spicy": 0
+    },
+    "texture": "pulp",
+    "category": "Sour Agent",
+    "affinities": [
+      "jaggery",
+      "red-chilli",
+      "fenugreek",
+      "sambar-onions",
+      "coconut"
+    ],
+    "description": "The backbone of Sambar and Rasam. Intense, fruity acidity that tenderizes meat and brightens curries."
+  },
+  {
+    "id": "coconut",
+    "name": "Coconut (Thengai)",
+    "slug": "coconut",
+    "profile": {
+      "sweet": 7,
+      "sour": 0,
+      "salty": 0,
+      "bitter": 0,
+      "umami": 6,
+      "spicy": 0
+    },
+    "texture": "fibrous",
+    "category": "Nut/Base",
+    "affinities": [
+      "green-chilli",
+      "curry-leaves",
+      "mustard-seeds",
+      "jaggery",
+      "roasted-gram"
+    ],
+    "description": "Used grated, ground, or as milk. Provides creamy texture and balances heat in kootu and chutneys."
+  },
+  {
+    "id": "curry-leaves",
+    "name": "Curry Leaves (Karuveppilai)",
+    "slug": "curry-leaves",
+    "profile": {
+      "sweet": 0,
+      "sour": 1,
+      "salty": 0,
+      "bitter": 6,
+      "umami": 3,
+      "spicy": 2
+    },
+    "texture": "crisp",
+    "category": "Herb",
+    "affinities": [
+      "mustard-seeds",
+      "coconut",
+      "lemon",
+      "ghee",
+      "urad-dal"
+    ],
+    "description": "Aromatic leaves tempered in hot oil. Releases essential oils that define the smell of Tamil cooking."
+  },
+  {
+    "id": "red-chilli",
+    "name": "Dried Red Chilli (Milagai)",
+    "slug": "red-chilli",
+    "profile": {
+      "sweet": 1,
+      "sour": 0,
+      "salty": 0,
+      "bitter": 2,
+      "umami": 2,
+      "spicy": 9
+    },
+    "texture": "brittle",
+    "category": "Spice",
+    "affinities": [
+      "mustard-seeds",
+      "tamarind",
+      "urad-dal",
+      "garlic",
+      "coconut"
+    ],
+    "description": "Provides the base heat for tadka/tempering. Often used whole or ground into powder."
+  },
+  {
+    "id": "mustard-seeds",
+    "name": "Mustard Seeds (Kadugu)",
+    "slug": "mustard-seeds",
+    "profile": {
+      "sweet": 0,
+      "sour": 0,
+      "salty": 0,
+      "bitter": 5,
+      "umami": 3,
+      "spicy": 7
+    },
+    "texture": "crunchy",
+    "category": "Spice",
+    "affinities": [
+      "curry-leaves",
+      "urad-dal",
+      "coconut",
+      "asafoetida",
+      "lemon"
+    ],
+    "description": "Pungent and nutty when popped in hot oil. The starting point for almost every Tamil dish."
+  },
+  {
+    "id": "jaggery",
+    "name": "Jaggery (Vellam)",
+    "slug": "jaggery",
+    "profile": {
+      "sweet": 10,
+      "sour": 1,
+      "salty": 1,
+      "bitter": 1,
+      "umami": 2,
+      "spicy": 0
+    },
+    "texture": "crystalline",
+    "category": "Sweetener",
+    "affinities": [
+      "tamarind",
+      "coconut",
+      "cardamom",
+      "ghee",
+      "rice-flour"
+    ],
+    "description": "Unrefined cane sugar with mineral notes. Balances the acidity of tamarind in Vatha Kuzhambu."
+  },
+  {
+    "id": "sambar-onions",
+    "name": "Small Onions (Chinna Vengayam)",
+    "slug": "sambar-onions",
+    "profile": {
+      "sweet": 6,
+      "sour": 0,
+      "salty": 0,
+      "bitter": 1,
+      "umami": 7,
+      "spicy": 4
+    },
+    "texture": "layered",
+    "category": "Vegetable",
+    "affinities": [
+      "tamarind",
+      "garlic",
+      "tomato",
+      "curry-leaves",
+      "drumstick"
+    ],
+    "description": "Sweeter and more potent than regular onions. Essential for Sambar and caramelized gravies."
+  },
+  {
+    "id": "asafoetida",
+    "name": "Asafoetida (Perungayam)",
+    "slug": "asafoetida",
+    "profile": {
+      "sweet": 0,
+      "sour": 1,
+      "salty": 0,
+      "bitter": 4,
+      "umami": 10,
+      "spicy": 3
+    },
+    "texture": "powder",
+    "category": "Spice",
+    "affinities": [
+      "mustard-seeds",
+      "sambar-onions",
+      "potato",
+      "chickpeas",
+      "tamarind"
+    ],
+    "description": "Strong, pungent umami bomb. Replicates onion/garlic flavors and aids digestion."
+  },
+  {
+    "id": "fenugreek",
+    "name": "Fenugreek (Vendhayam)",
+    "slug": "fenugreek",
+    "profile": {
+      "sweet": 1,
+      "sour": 0,
+      "salty": 0,
+      "bitter": 9,
+      "umami": 3,
+      "spicy": 0
+    },
+    "texture": "hard",
+    "category": "Spice",
+    "affinities": [
+      "tamarind",
+      "fish",
+      "tomato",
+      "buttermilk",
+      "mango"
+    ],
+    "description": "Bitter seeds that provide depth and aroma. Key ingredient in pickles and fish curries."
+  },
+  {
+    "id": "drumstick",
+    "name": "Drumstick (Murungakkai)",
+    "slug": "drumstick",
+    "profile": {
+      "sweet": 4,
+      "sour": 0,
+      "salty": 1,
+      "bitter": 2,
+      "umami": 8,
+      "spicy": 0
+    },
+    "texture": "fibrous",
+    "category": "Vegetable",
+    "affinities": [
+      "sambar-onions",
+      "tamarind",
+      "coconut",
+      "toor-dal",
+      "tomato"
+    ],
+    "description": "A unique vegetable with a distinct savory flavor. The soul of a traditional Sambar."
+  },
+  {
+    "id": "raw-mango",
+    "name": "Raw Mango (Mangai)",
+    "slug": "raw-mango",
+    "profile": {
+      "sweet": 2,
+      "sour": 9,
+      "salty": 0,
+      "bitter": 3,
+      "umami": 1,
+      "spicy": 0
+    },
+    "texture": "crunchy",
+    "category": "Fruit/Veg",
+    "affinities": [
+      "coconut",
+      "red-chilli",
+      "fish",
+      "salt",
+      "mustard-seeds"
+    ],
+    "description": "Sour, unripe mango used in chutneys, curries, and instant pickles."
+  },
+  {
+    "id": "ghee",
+    "name": "Ghee (Nei)",
+    "slug": "ghee",
+    "profile": {
+      "sweet": 4,
+      "sour": 0,
+      "salty": 0,
+      "bitter": 0,
+      "umami": 7,
+      "spicy": 0
+    },
+    "texture": "fatty",
+    "category": "Fat",
+    "affinities": [
+      "rice",
+      "dal",
+      "jaggery",
+      "black-pepper",
+      "cashew"
+    ],
+    "description": "Clarified butter with a nutty aroma. Finished over dishes or eaten with hot rice."
+  },
+  {
+    "id": "rice",
+    "name": "Ponni Rice (Sadham)",
+    "slug": "rice",
+    "profile": {
+      "sweet": 3,
+      "sour": 0,
+      "salty": 0,
+      "bitter": 0,
+      "umami": 2,
+      "spicy": 0
+    },
+    "texture": "fluffy",
+    "category": "Grain",
+    "affinities": [
+      "sambar",
+      "rasam",
+      "yoghurt",
+      "ghee",
+      "pickle"
+    ],
+    "description": "The staple grain. A neutral canvas for the intense flavors of Tamil curries."
+  },
+  {
+    "id": "black-pepper",
+    "name": "Black Pepper (Milagu)",
+    "slug": "black-pepper",
+    "profile": {
+      "sweet": 0,
+      "sour": 0,
+      "salty": 0,
+      "bitter": 3,
+      "umami": 2,
+      "spicy": 8
+    },
+    "texture": "crunchy",
+    "category": "Spice",
+    "affinities": [
+      "cumin",
+      "ghee",
+      "chicken",
+      "garlic",
+      "turmeric"
+    ],
+    "description": "Native heat source before chillies arrived. Medicinal and sharp."
+  },
+  {
+    "id": "curd",
+    "name": "Curd (Thayir)",
+    "slug": "curd",
+    "profile": {
+      "sweet": 2,
+      "sour": 6,
+      "salty": 0,
+      "bitter": 0,
+      "umami": 4,
+      "spicy": 0
+    },
+    "texture": "creamy",
+    "category": "Dairy",
+    "affinities": [
+      "rice",
+      "mustard-seeds",
+      "ginger",
+      "green-chilli",
+      "pomegranate"
+    ],
+    "description": "Fermented dairy essential for cooling the palate at the end of a meal."
+  }
+]

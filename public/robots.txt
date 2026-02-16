@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://culinary-alchemist.vercel.app/sitemap.xml
